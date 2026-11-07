@@ -137,10 +137,6 @@ token-live-monitor/
 
 **v1.0** — 首个公开版本：常驻后台采集、单文件离线看板、下拉时间窗口、5 套界面风格、会话标题识别、桌面按钮与专属图标。
 
-## 致谢
-
-看板图表模板改编自开源项目 [fuyi-git/token-dashboard](https://github.com/fuyi-git/token-dashboard)，本项目在其基础上重构为常驻服务并独立实现了会话标题识别。模板已内置，使用本项目无需安装上游工具。
-
 ## 许可证
 
 [MIT](LICENSE)
