@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Token Live Monitor icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16345f"/>
+      <stop offset="1" stop-color="#071224"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.18" cy="0.08" r="0.85">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe9a8"/>
+      <stop offset="1" stop-color="#f0a500"/>
+    </linearGradient>
+    <filter id="g" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect x="6" y="6" width="244" height="244" rx="48" fill="url(#bg)"/>
+  <rect x="6" y="6" width="244" height="244" rx="48" fill="url(#halo)"/>
+  <g stroke="#7fd0ff" stroke-opacity=".13" stroke-width="1">
+    <path d="M6 54H250M6 102H250M6 150H250M6 198H250"/>
+    <path d="M54 6V250M102 6V250M150 6V250M198 6V250"/>
+  </g>
+  <rect x="7" y="7" width="242" height="242" rx="47" fill="none" stroke="#38bdf8" stroke-width="3"/>
+  <rect x="12" y="12" width="232" height="232" rx="43" fill="none" stroke="#7fd0ff" stroke-opacity=".25" stroke-width="1"/>
+  <path d="M50 86 L64 34 L100 70 Z" fill="#174b74" stroke="#38bdf8" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M156 70 L192 34 L206 86 Z" fill="#174b74" stroke="#38bdf8" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M62 76 L68 50 L86 70 Z" fill="#f472b6" opacity=".85"/>
+  <path d="M170 70 L188 50 L194 76 Z" fill="#f472b6" opacity=".85"/>
+  <rect x="40" y="66" width="176" height="142" rx="44" fill="#0b1b32" stroke="#38bdf8" stroke-width="3"/>
+  <rect x="50" y="74" width="156" height="30" rx="15" fill="#164066" opacity=".65"/>
+  <rect x="108" y="80" width="40" height="18" rx="5" fill="#14395e" stroke="#5eead4" stroke-width="2"/>
+  <g stroke="#5eead4" stroke-width="2" stroke-linecap="round">
+    <path d="M116 80v-8M128 80v-8M140 80v-8M116 98v8M128 98v8M140 98v8"/>
+  </g>
+  <g fill="#5eead4" opacity=".55" filter="url(#g)">
+    <rect x="70" y="116" width="34" height="26" rx="9"/>
+    <rect x="152" y="116" width="34" height="26" rx="9"/>
+  </g>
+  <rect x="70" y="116" width="34" height="26" rx="9" fill="#7ff0e2"/>
+  <rect x="152" y="116" width="34" height="26" rx="9" fill="#7ff0e2"/>
+  <rect x="76" y="120" width="7" height="16" rx="3" fill="#ffffff" opacity=".85"/>
+  <rect x="158" y="120" width="7" height="16" rx="3" fill="#ffffff" opacity=".85"/>
+  <path d="M120 160 L136 160 L128 170 Z" fill="url(#gold)"/>
+  <path d="M110 172 Q119 182 128 172 Q137 182 146 172" fill="none" stroke="#9ad8ff" stroke-width="2.5" stroke-linecap="round"/>
+  <g stroke="#7fd0ff" stroke-opacity=".55" stroke-width="2" stroke-linecap="round">
+    <path d="M60 158h28M60 170l28-4M196 158h-28M196 170l-28-4"/>
+  </g>
+  <g fill="#38bdf8">
+    <rect x="56" y="186" width="9" height="14" rx="3"/>
+    <rect x="70" y="176" width="9" height="24" rx="3"/>
+    <rect x="84" y="164" width="9" height="36" rx="3" fill="#5eead4"/>
+  </g>
+  <circle cx="196" cy="190" r="30" fill="url(#gold)" stroke="#ffe9a8" stroke-width="3"/>
+  <circle cx="196" cy="190" r="23" fill="none" stroke="#a76b00" stroke-opacity=".45" stroke-width="2"/>
+  <text x="196" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#6b4300">¥</text>
+</svg>
